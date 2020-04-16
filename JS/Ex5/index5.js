@@ -1,0 +1,10 @@
+var firstname ='Rizma';
+var lastname = 'Karim';
+var age = 30 ;
+var dateOfBirth = 'mm/dd/yyyy' ;
+var address = '5471 arcadia road' ;
+console.log(firstname);
+console.log(lastname);
+console.log(age);
+console.log(dateOfBirth);
+console.log(address);

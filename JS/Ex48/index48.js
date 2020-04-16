@@ -1,0 +1,12 @@
+let message = '3.14 it\'s a great number but 42 it\'s the answer to life.';
+var pi = message.substr(0,4);
+const pi1 = parseFloat(pi);
+console.log(pi1);
+var answerToLife = message.substr(29,2);
+const toLife = parseInt(answerToLife);
+console.log(toLife);
+var result = pi1 + toLife;
+console.log('Variable Name , Variable Value : ', result);
+var template = ` ${result} is the result of adding pi and answerToLife`;
+let message1 = result.toString();
+console.log(typeof message1);

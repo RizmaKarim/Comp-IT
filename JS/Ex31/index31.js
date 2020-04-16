@@ -1,0 +1,10 @@
+var l = 10;
+var b =20;
+var h = 5;
+const result = ( l*b*h );
+let message = ' The Perimeter of a Triangle =';
+console.log( 'The length of triangle =', l);
+console.log( 'The Breadth of a Triangle =', b);
+console.log(' The Height of a Triangle =', h);
+console.log(message);
+console.log(result);
