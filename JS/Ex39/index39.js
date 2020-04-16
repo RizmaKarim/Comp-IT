@@ -1,0 +1,12 @@
+var firstName ='Rizma';
+var lastName = 'Karim';
+var characterCount = firstName.length;
+var characterCount = lastName.length;
+var charsDiff = firstName - lastName;
+var template1 = `My First Name is ${firstName} and it is ${characterCount} characters long`;
+var template2 = `My Last Name is ${lastName} and it is ${characterCount} characters long`;
+var template3 = `The Character Difference Between my First Name and Last Name is ${charsDiff}`;
+console.log(template1);
+console.log(template2);
+console.log(template3);
+console.log('My First Name is Longer than my Last Name ? True or False :', firstName > lastName);

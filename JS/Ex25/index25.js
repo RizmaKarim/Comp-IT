@@ -1,0 +1,12 @@
+var superHeroName = 'Batman';
+var name = 'Bruce Wayne';
+var fly = 'false';
+var hasBatmobile = 'true';
+var life = 'value between 0 and 100';
+var freeTime = 'null';
+console.log('typeof superHeroName', superHeroName);
+console.log('typeof name', name);
+console.log('typeof fly', fly);
+console.log('typeof hasBatmobile', Batmobile);
+console.log('typeof life', life);
+console.log('typeof freeTime', freeTime);
